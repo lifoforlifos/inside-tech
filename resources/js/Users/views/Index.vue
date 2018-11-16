@@ -176,11 +176,5 @@
                 slides: []
             }
         },
-		created() {
-            axios.get('/api/items')
-                .then((res) => {
-                    this.slides = res.data.items
-                })
-        },
     }
 </script>

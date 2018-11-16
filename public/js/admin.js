@@ -1821,7 +1821,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 					// remove token
 					__WEBPACK_IMPORTED_MODULE_0__Helpers_auth__["a" /* default */].remove();
 					__WEBPACK_IMPORTED_MODULE_1__Helpers_flash__["a" /* default */].setSuccess('You have successfully logged out.');
-					_this2.$router.push('/login');
+					_this2.$router.push('/');
 				}
 			});
 		}
@@ -52420,7 +52420,6 @@ function interceptors(cb) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__views_Payments_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__views_Payments_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__views_User_payments__ = __webpack_require__("./resources/js/Admin/views/User_payments.vue");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__views_User_payments___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__views_User_payments__);
-
 
 
 

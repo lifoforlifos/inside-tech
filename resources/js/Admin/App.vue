@@ -174,7 +174,7 @@
 				            // remove token
 				            Auth.remove()
 				            Flash.setSuccess('You have successfully logged out.')
-				            this.$router.push('/login')
+				            this.$router.push('/')
 				        }
 				    })
 			}

@@ -2,7 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import AdminLogin from '../views/Login.vue'
-
 import Dashboard from '../views/Dashboard.vue'
 import AdminIndex from '../views/Index.vue'
 import AdminShow from '../views/Show.vue'

@@ -2343,13 +2343,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             authState: __WEBPACK_IMPORTED_MODULE_1__Helpers_auth__["a" /* default */].state,
             slides: []
         };
-    },
-    created: function created() {
-        var _this = this;
-
-        axios.get('/api/items').then(function (res) {
-            _this.slides = res.data.items;
-        });
     }
 });
 
